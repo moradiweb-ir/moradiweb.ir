@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header/Header'
+import Menubar from './components/Menubar/Menubar'
 
 function App() {
  
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
      <Header/> 
+     <Menubar/>
     </>
   )
 }

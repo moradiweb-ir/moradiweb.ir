@@ -14,7 +14,8 @@ export default {
         colorborder:'',
       },
       boxShadow:{
-        GR:' 0px 5px 10px 0px #58C900'
+        GR:' 0px 1px 10px 0px #58C900',
+        GRC:' 0px 0px 15px 0px #58C900'
       }
     },
   },
