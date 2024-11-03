@@ -16,7 +16,7 @@ export default {
       boxShadow:{
         GR:' 0px 1px 10px 0px #58C900',
         GRC:' 0px 0px 15px 0px #58C900'
-      }
+      },
     },
   },
   plugins: [],
