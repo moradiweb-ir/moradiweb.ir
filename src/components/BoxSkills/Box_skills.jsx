@@ -1,5 +1,5 @@
 import Image_Skills from "./Image_skills/skills-image.png"
-export default function Box_skills(){
+export default function BoxSkills(){
     return(
         <div>
              <div className=" flex justify-center flex-nowrap mt-5">
