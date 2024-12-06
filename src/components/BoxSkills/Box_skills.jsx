@@ -19,7 +19,6 @@ export default function BoxSkills(){
             <p className="flex flex-wrap items-center justify-center rounded-2xl  w-32 h-12 bg-green-500 ml-2">JAVASCRIPT</p>
             <p className="flex flex-wrap items-center justify-center rounded-2xl  w-32 h-12 bg-green-500 ml-2">Tailwind</p>
             <p className="flex flex-wrap items-center justify-center rounded-2xl  w-16 h-12 bg-green-500 ml-2">React.js</p>
-            <p className="flex flex-wrap items-center justify-center rounded-2xl  w-16 h-12 bg-green-500 ml-2">Next.js</p>
             </div>
         </div>
      
