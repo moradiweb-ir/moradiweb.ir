@@ -8,7 +8,7 @@ export default function BoxEducation() {
       delay-50 hover:shadow-GRC transition-all delay-50"
       >
         <img
-          className="flex flex-row w-52 h-52 m-10 "
+          className="flex flex-row w-52 h-52 m-10"
           src={Image_Education}
           alt=""
         />
