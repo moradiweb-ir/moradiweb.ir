@@ -1,7 +1,7 @@
 {
   "name": "personal-site-v2",
   "private": true,
-  "homepage": "https://www.moradiweb.ir/",
+  "homepage": "https://moradiweb.ir/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
