@@ -14,7 +14,7 @@ delay-50 hover:shadow-GRC transition-all delay-50"
             src={Image_Experience}
             alt=""
           />
-          <div className=" flex flex-row items-center justify-center w-[600px] h-[120px] max-md:flex-col border border-emerald-500 "></div>
+          <div className=" flex flex-row items-center justify-center w-[600px] h-[120px] max-md:flex-col max-md:w-[300px] border border-emerald-500 "></div>
         </div>
       </div>
     </>

@@ -12,7 +12,7 @@ export default function BoxEducation() {
           src={Image_Education}
           alt=""
         />
-        <div className=" flex flex-row items-center justify-center w-[600px] h-[120px] max-md:flex-col border border-emerald-500 ">
+        <div className=" flex flex-row items-center justify-center w-[600px] h-[120px] max-md:flex-col max-md:w-[300px] border border-emerald-500 ">
           <div className="flex flex-wrap items-center justify-center w-[350px] h-[120px] border border-emerald-500">
             <span className="flex flex-col justify-center items-center w-[180px] h-[50px] bg-green-500 rounded-3xl ">
               Master's degree
