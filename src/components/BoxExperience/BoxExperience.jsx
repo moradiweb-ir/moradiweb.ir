@@ -10,7 +10,7 @@ bg-boxblue rounded-3xl  shadow shadow-transparent
 delay-50 hover:shadow-GRC transition-all delay-50 max-md:w-11/12"
         >
           <img
-            className="flex flex-row w-52 h-52 m-10 "
+            className="flex flex-row w-52 h-52 m-10 max-md:h-[170px] max-md:w-[170px] "
             src={Image_Experience}
             alt=""
           />

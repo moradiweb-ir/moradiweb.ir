@@ -7,7 +7,7 @@ export default function BoxProfile() {
      bg-boxblue rounded-3xl  shadow shadow-transparent
       delay-50 hover:shadow-GRC transition-all delay-50 max-xl:h-[650px]  max-md:w-11/12 "
       >
-        <div className="flex flex-row items-center justify-around w-[900px] h-[300x]  max-xl:flex-col max-md:w-[300px] max-xl:h-[650px]  ">
+        <div className="flex flex-row items-center justify-around w-[900px] h-[300x]  max-xl:flex-col max-md:w-[300px] max-xl:h-[500px]  ">
           <div className="flex justify-center items-center  w-[360px] h-[350px] max-lg:flex-col ">
             <img
               className="flex  w-[320px] h-[320px] rounded-full max-md:w-[270px] max-md:h-[270px]"
@@ -17,9 +17,12 @@ export default function BoxProfile() {
           </div>
           <div className="flex flex-row justify-center w-[500px] h-[350px] max-lg:flex-col max-lg:justify-center items-center max-lg:w-[300px]  max-md:justify-center   ">
             <div className="flex-row  w-80 h-56 mt-10 max-lg:justify-center items-center max-lg:w-[300px]  ">
-              <p className="  text-white max-md:justify-center items-center">
+              <p className="  text-white ">
                 {" "}
-                <b>Name : </b> Mohammad Hoseein Moradi
+                <b className="max-md:justify-center items-center">
+                  Name :{" "}
+                </b>{" "}
+                Mohammad Hoseein Moradi
               </p>
               <p className="text-white mt-1 ">
                 {" "}

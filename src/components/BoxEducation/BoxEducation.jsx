@@ -5,27 +5,27 @@ export default function BoxEducation() {
       <div
         className="flex flex-row items-center justify-around max-sm:flex-col max-lg:flex-col  max-xl:flex-col w-9/12 h-96
      bg-boxblue rounded-3xl  shadow shadow-transparent
-      delay-50 hover:shadow-GRC transition-all delay-50 max-md:w-11/12"
+      delay-50 hover:shadow-GRC transition-all delay-50 max-md:w-11/12 max-md:h-[500px]"
       >
         <img
-          className="flex flex-row w-52 h-52 m-10"
+          className="flex flex-row w-52 h-52 m-10 max-md:h-[170px] max-md:w-[170px] max-lg:h-[170px] max-lg:w-[170px] max-xl:h-[170px] max-xl:w-[170px] "
           src={Image_Education}
           alt=""
         />
         <div className=" flex flex-row items-center justify-center w-[600px] h-[120px] max-md:flex-col max-md:w-[300px] ">
           <div className="flex flex-wrap items-center justify-center w-[350px] h-[120px] ">
-            <span className="flex flex-col justify-center items-center w-[180px] h-[50px] bg-green-500 rounded-3xl  ">
+            <span className="flex flex-col justify-center items-center w-[180px] h-[50px] max-md:mt-[-70px] font-bold bg-green-500 rounded-3xl  ">
               Master's degree
             </span>
-            <p className="flex flex-col mt-2 color text-white font-bold">
+            <p className="flex flex-col mt-2 color text-white font-bold max-md:text-sm max-md:mt-[-20px]">
               Shahid Rajaei Lahijan University
             </p>
           </div>
           <div className="flex flex-wrap items-center justify-center w-[350px] h-[120px]">
-            <span className="flex flex-col  justify-center items-center w-[180px] h-[50px] bg-green-500 rounded-3xl">
+            <span className="flex flex-col  justify-center items-center w-[180px] h-[50px] max-md:text-sm font-bold bg-green-500 rounded-3xl">
               Bachelor's degree
             </span>
-            <p className="flex flex-col mt-2 color text-white font-bold">
+            <p className="flex flex-col mt-2 color text-white font-bold max-md:text-sm">
               Data Processing University
             </p>
           </div>
