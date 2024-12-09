@@ -13,19 +13,19 @@ export default function BoxEducation() {
           alt=""
         />
         <div className=" flex flex-row items-center justify-center w-[600px] h-[120px] max-md:flex-col max-md:w-[300px] ">
-          <div className="flex flex-wrap items-center justify-center w-[350px] h-[120px] ">
+          <div className="flex flex-col items-center justify-center w-[350px] h-[120px] ">
             <span className="flex flex-col justify-center items-center w-[180px] h-[50px] max-md:mt-[-70px] font-bold bg-green-500 rounded-3xl  ">
               Master's degree
             </span>
-            <p className="flex flex-col mt-2 color text-white font-bold max-md:text-sm max-md:mt-[-20px]">
+            <p className="flex flex-col mt-2 color text-white font-bold max-md:text-sm ">
               Shahid Rajaei Lahijan University
             </p>
           </div>
-          <div className="flex flex-wrap items-center justify-center w-[350px] h-[120px]">
+          <div className="flex flex-col items-center justify-center w-[350px] h-[120px]">
             <span className="flex flex-col  justify-center items-center w-[180px] h-[50px] max-md:text-sm font-bold bg-green-500 rounded-3xl">
               Bachelor's degree
             </span>
-            <p className="flex flex-col mt-2 color text-white font-bold max-md:text-sm">
+            <p className="flex flex-col mt-2 color text-white font-bold max-md:text-sm max-md:flex-col">
               Data Processing University
             </p>
           </div>
