@@ -1,6 +1,6 @@
 export default function Text_profile() {
   return (
-    <div className="flex-wrap  w-80 h-56  ">
+    <div className="flex-row  w-80 h-56 mt-10 ">
       <p className="  text-white ">
         {" "}
         <b>Name : </b> Mohammad Hoseein Moradi

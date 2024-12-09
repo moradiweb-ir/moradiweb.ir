@@ -37,7 +37,7 @@ delay-50 hover:shadow-GRC transition-all delay-50 mb-3"
             alt=""
           />
         </div>
-        <div className="flex flex-col justify-center items-center w-[500px] h-[90px]  ">
+        <div className="flex flex-col justify-center items-center w-[300px] h-[90px] min-md:w-[200px]  ">
           <p className={clsx("flex text-white font-bold", "min-md:text-xs ")}>
             Phone : 0910 - 221 - 6569
           </p>

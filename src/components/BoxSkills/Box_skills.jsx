@@ -8,7 +8,7 @@ export default function BoxSkills() {
      bg-boxblue rounded-3xl  shadow shadow-transparent
       delay-50 hover:shadow-GRC transition-all delay-50 "
         >
-          <div className="flex flex-row-reverse items-center justify-center w-[900px] h-[300px] border border-green-600 max-xl:flex-col max-md:w-[500px] ">
+          <div className="flex flex-row items-center justify-center w-[900px] h-[300px] border border-green-600 max-xl:flex-col max-md:w-[500px] ">
             <div className="flex flex-row items-center justify-center w-[500px] h-[150px] border border-green-600 max-md:w-[200px] ">
               <img className="flex  w-52 h-52 " src={Image_Skills} alt="" />
             </div>
