@@ -7,7 +7,7 @@ function BoxExperience() {
         <div
           className="flex flex-row-reverse items-center justify-around max-sm:flex-col max-lg:flex-col  max-xl:flex-col w-9/12 h-96
 bg-boxblue rounded-3xl  shadow shadow-transparent
-delay-50 hover:shadow-GRC transition-all delay-50"
+delay-50 hover:shadow-GRC transition-all delay-50 max-md:w-11/12"
         >
           <img
             className="flex flex-row w-52 h-52 m-10 "

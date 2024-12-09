@@ -5,17 +5,17 @@ export default function BoxProfile() {
       <div
         className="flex flex-row-reverse flex-wrap justify-around items-center content-center  w-9/12 h-96
      bg-boxblue rounded-3xl  shadow shadow-transparent
-      delay-50 hover:shadow-GRC transition-all delay-50 max-xl:h-[650px] "
+      delay-50 hover:shadow-GRC transition-all delay-50 max-xl:h-[650px]  max-md:w-11/12 "
       >
-        <div className="flex flex-row items-center justify-center w-[900px] h-[300x] border border-green-600 max-xl:flex-col max-md:w-[300px] max-xl:h-[650px]  ">
-          <div className="flex justify-center items-center border border-green-400 w-[360px] h-[350px] max-lg:flex-col ">
+        <div className="flex flex-row items-center justify-around w-[900px] h-[300x]  max-xl:flex-col max-md:w-[300px] max-xl:h-[650px]  ">
+          <div className="flex justify-center items-center  w-[360px] h-[350px] max-lg:flex-col ">
             <img
               className="flex  w-[320px] h-[320px] rounded-full max-md:w-[270px] max-md:h-[270px]"
               src={Image_Me}
               alt=""
             />
           </div>
-          <div className="flex flex-row border border-green-400 w-[500px] h-[350px] max-lg:flex-col max-lg:justify-center items-center max-lg:w-[300px]  max-md:justify-center   ">
+          <div className="flex flex-row justify-center w-[500px] h-[350px] max-lg:flex-col max-lg:justify-center items-center max-lg:w-[300px]  max-md:justify-center   ">
             <div className="flex-row  w-80 h-56 mt-10 max-lg:justify-center items-center max-lg:w-[300px]  ">
               <p className="  text-white max-md:justify-center items-center">
                 {" "}

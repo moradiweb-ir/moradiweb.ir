@@ -6,10 +6,10 @@ export default function BoxSkills() {
         <div
           className=" flex flex-row-reverse flex-wrap justify-around items-center content-center  w-9/12 h-96
      bg-boxblue rounded-3xl  shadow shadow-transparent
-      delay-50 hover:shadow-GRC transition-all delay-50 "
+      delay-50 hover:shadow-GRC transition-all delay-50 max-md:w-11/12 "
         >
-          <div className="flex flex-row items-center justify-center w-[900px] h-[300px] border border-green-600 max-xl:flex-col max-md:w-[500px] ">
-            <div className="flex flex-row items-center justify-center w-[500px] h-[150px] border border-green-600 max-md:w-[200px] ">
+          <div className="flex flex-row-reverse items-center justify-end w-[900px] h-[300px]  max-xl:flex-col max-md:w-[500px] ">
+            <div className="flex flex-row items-center justify-end w-[500px] h-[150px]  max-md:w-[200px] ">
               <img className="flex  w-52 h-52 " src={Image_Skills} alt="" />
             </div>
             <div className="flex flex-row w-[500px] h-[200px] border border-green-500  justify-center items-center max-md:w-[300px]  ">

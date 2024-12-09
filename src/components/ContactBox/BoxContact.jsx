@@ -9,7 +9,7 @@ function BoxContact() {
       <div
         className="flex flex-row  items-center justify-around max-sm:flex-col max-lg:flex-col  max-xl:flex-col w-9/12 h-[150px]
 bg-boxblue rounded-3xl  shadow shadow-transparent
-delay-50 hover:shadow-GRC transition-all delay-50 mb-3"
+delay-50 hover:shadow-GRC transition-all delay-50 mb-3 max-md:w-11/12"
       >
         <div className="flex flex-row justify-around items-center w-[500px] h-[90px] max-md:w-[280px] ">
           <img
