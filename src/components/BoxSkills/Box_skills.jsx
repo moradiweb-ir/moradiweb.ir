@@ -12,13 +12,13 @@ export default function BoxSkills() {
             <div className="flex flex-row items-center justify-center w-[500px] h-[150px]  max-md:h-[160px] max-md:w-[180px] max-lg:h-[160px] max-lg:w-[180px] max-xl:h-[160px] max-xl:w-[180px] ">
               <img className="flex  w-52 h-52 " src={Image_Skills} alt="" />
             </div>
-            <div className="flex flex-col w-[500px] h-[370px] border border-green-500  justify-center items-center max-md:w-[300px]  ">
-              <div className=" flex  flex-col justify-center border border-green-400 ">
+            <div className="flex flex-col w-[500px] h-[370px]   justify-center items-center max-md:w-[300px]  ">
+              <div className=" flex  flex-col justify-center   ">
                 <p className="flex  flex-col items-center justify-center rounded-2xl font-bold  w-64 h-12 bg-green-600 max-md:w-45 max-md:h-10 max-xl:mt-10">
                   Front-End Developer
                 </p>
               </div>
-              <div className="flex flex-row justify-around items-center w-[400px] h-[50px] border border-green-600 mt-5 max-md:w-[300px] ">
+              <div className="flex flex-row justify-around items-center w-[400px] h-[50px] mt-5 max-md:w-[300px] ">
                 <p className="flex flex-row justify-center items-center bg-green-600 w-24 h-12 rounded-full max-md:w-16 max-md:h-8 max-md:text-[14px] max-md:font-bold ">
                   HTML
                 </p>
@@ -29,7 +29,7 @@ export default function BoxSkills() {
                   JavaScript
                 </p>
               </div>
-              <div className="flex flex-row justify-around items-center w-[400px] h-[50px] border border-green-600 mt-5 max-md:w-[300px]">
+              <div className="flex flex-row justify-around items-center w-[400px] h-[50px]  mt-5 max-md:w-[300px]">
                 <p className="flex flex-row justify-center items-center bg-green-600 w-24 h-12 rounded-full max-md:w-18 max-md:h-8 max-md:text-[14px] max-md:font-bold  ">
                   React.js
                 </p>
@@ -40,7 +40,7 @@ export default function BoxSkills() {
                   Tailwind.css
                 </p>
               </div>
-              <div className="flex flex-row justify-around items-center w-[400px] h-[50px] border border-green-600 mt-5 max-md:w-[300px] ">
+              <div className="flex flex-row justify-around items-center w-[400px] h-[50px]  mt-5 max-md:w-[300px] ">
                 <p className="flex flex-row justify-center items-center bg-green-600 w-28  h-12 rounded-full max-md:w-17    max-md:h-8 max-md:text-[14px] max-md:font-bold ">
                   Respansive
                 </p>
