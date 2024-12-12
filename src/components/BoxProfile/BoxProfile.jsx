@@ -7,10 +7,10 @@ export default function BoxProfile() {
      bg-boxblue rounded-3xl  shadow shadow-transparent
       delay-50 hover:shadow-GRC transition-all delay-50 max-xl:h-[650px]  max-md:w-11/12 "
       >
-        <div className="flex flex-row items-center justify-around w-[900px] h-[300x]  max-xl:flex-col max-md:w-[300px] max-xl:h-[500px]  ">
-          <div className="flex justify-center items-center  w-[360px] h-[350px] max-lg:flex-col ">
+        <div className="flex flex-row items-center justify-around w-[900px] h-[300x]  max-xl:flex-col max-md:w-[300px] max-xl:h-[500px]">
+          <div className="flex justify-center items-center  w-[360px] h-[350px] max-lg:flex-col   ">
             <img
-              className="flex  w-[320px] h-[320px] rounded-full max-md:w-[270px] max-md:h-[270px]"
+              className="flex  w-[320px] h-[320px] rounded-full max-md:w-[270px] max-md:h-[270px] max-md:mt-[-60px] "
               src={Image_Me}
               alt=""
             />

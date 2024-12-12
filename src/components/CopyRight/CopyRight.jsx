@@ -8,7 +8,7 @@ function CopyRight() {
 bg-boxblue rounded-t-lg  shadow shadow-transparent
 delay-50 hover:shadow-GRC transition-all delay-50 mb-0 max-md:w-11/12"
       >
-        <p className="flex justify-center text-white font-semibold ">
+        <p className="flex justify-center text-white font-semibold max-md:text-[12px]">
           &copy; All Right Reserved For moradiweb.ir{" "}
         </p>
       </div>
